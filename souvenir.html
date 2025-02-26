@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Souvenir Chocolate - Indulge in Sweetness and Chocolate Delights!">
+    <meta name="keywords" content="chocolate, sweets, souvenirs, gifts, desserts">
+    <title>Souvenir Chocolate</title>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+    (function() {
+        emailjs.init("blNYizi-VkhLqfyjt");
+    })();
+    </script>
+</head>
+<body>
+    <!-- Loading Animation -->
+    <div id="loading">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header">
+        <figure class="logo">
+            <img src="images/Logo.png" alt="Souvenir Logo">
+        </figure>
+        <nav class="navbar" aria-label="Main Navigation">
+            <ul>
+                <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+                <li><a href="#menu" class="nav-link" data-section="menu">Menu</a></li>
+                <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Home Section -->
+        <section id="home" class="dynamic-section active">
+            <div class="hero">
+                <h1>Welcome to Souvenir - <span lang="ar">مرحبا بكم في سوفينير</span></h1>
+                <p>About Us: Indulge in Sweetness and Chocolate Delights!</p>
+                <a href="menu/Souvenir_Menu.pdf" class="cta-button" target="_blank">Explore Our Menu</a>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section id="menu" class="dynamic-section">
+            <h2>Our Menu</h2>
+            <div class="product-grid">
+                <!-- 1 -->
+                <div class="product-box">
+                    <img src="images/img1.jpg" alt="Mix Nut With Dried Fruits Chocolate" loading="lazy" class="products">
+                    <h3>Mix Nut With Dried Fruits</h3>
+                    <div class="price-container">
+                        <svg class="riyal-symbol" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1124.14 1256.39">
+                            <path class="cls-1" d="M699.62,1113.02h0c-20.06,44.48-33.32,92.75-38.4,143.37l424.51-90.24c20.06-44.47,33.31-92.75,38.4-143.37l-424.51,90.24Z"/>
+                            <path class="cls-1" d="M1085.73,895.8c20.06-44.47,33.32-92.75,38.4-143.37l-330.68,70.33v-135.2l292.27-62.11c20.06-44.47,33.32-92.75,38.4-143.37l-330.68,70.27V66.13c-50.67,28.45-95.67,66.32-132.25,110.99v403.35l-132.25,28.11V0c-50.67,28.44-95.67,66.32-132.25,110.99v525.69l-295.91,62.88c-20.06,44.47-33.33,92.75-38.42,143.37l334.33-71.05v170.26l-358.3,76.14c-20.06,44.47-33.32,92.75-38.4,143.37l375.04-79.7c30.53-6.35,56.77-24.4,73.83-49.24l68.78-101.97v-.02c7.14-10.55,11.3-23.27,11.3-36.97v-149.98l132.25-28.11v270.4l424.53-90.28Z"/>
+                        </svg>
+                        <span class="price">50</span>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="product-box">
+                    <img src="images/img2.jpg" alt="Raspberry Filling" loading="lazy" class="products">
+                    <h3>Raspberry Filling</h3>
+                    <div class="price-container">
+                        <svg class="riyal-symbol" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1124.14 1256.39">
+                            <path class="cls-1" d="M699.62,1113.02h0c-20.06,44.48-33.32,92.75-38.4,143.37l424.51-90.24c20.06-44.47,33.31-92.75,38.4-143.37l-424.51,90.24Z"/>
+                            <path class="cls-1" d="M1085.73,895.8c20.06-44.47,33.32-92.75,38.4-143.37l-330.68,70.33v-135.2l292.27-62.11c20.06-44.47,33.32-92.75,38.4-143.37l-330.68,70.27V66.13c-50.67,28.45-95.67,66.32-132.25,110.99v403.35l-132.25,28.11V0c-50.67,28.44-95.67,66.32-132.25,110.99v525.69l-295.91,62.88c-20.06,44.47-33.33,92.75-38.42,143.37l334.33-71.05v170.26l-358.3,76.14c-20.06,44.47-33.32,92.75-38.4,143.37l375.04-79.7c30.53-6.35,56.77-24.4,73.83-49.24l68.78-101.97v-.02c7.14-10.55,11.3-23.27,11.3-36.97v-149.98l132.25-28.11v270.4l424.53-90.28Z"/>
+                        </svg>
+                        <span class="price">60</span>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="product-box">
+                    <img src="images/img3.jpg" alt="White Chocolate, Pistachio & dried raspberry" loading="lazy" class="products">
+                    <h3>White Chocolate, Pistachio & dried raspberry</h3>
+                    <div class="price-container">
+                        <svg class="riyal-symbol" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1124.14 1256.39">
+                            <path class="cls-1" d="M699.62,1113.02h0c-20.06,44.48-33.32,92.75-38.4,143.37l424.51-90.24c20.06-44.47,33.31-92.75,38.4-143.37l-424.51,90.24Z"/>
+                            <path class="cls-1" d="M1085.73,895.8c20.06-44.47,33.32-92.75,38.4-143.37l-330.68,70.33v-135.2l292.27-62.11c20.06-44.47,33.32-92.75,38.4-143.37l-330.68,70.27V66.13c-50.67,28.45-95.67,66.32-132.25,110.99v403.35l-132.25,28.11V0c-50.67,28.44-95.67,66.32-132.25,110.99v525.69l-295.91,62.88c-20.06,44.47-33.33,92.75-38.42,143.37l334.33-71.05v170.26l-358.3,76.14c-20.06,44.47-33.32,92.75-38.4,143.37l375.04-79.7c30.53-6.35,56.77-24.4,73.83-49.24l68.78-101.97v-.02c7.14-10.55,11.3-23.27,11.3-36.97v-149.98l132.25-28.11v270.4l424.53-90.28Z"/>
+                        </svg>
+                        <span class="price">70</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="dynamic-section">
+            <h2>Contact Us</h2>
+            <div class="contact-layout">
+                <!-- Left Side: Contact Information -->
+                <div class="contact-left">
+                    <h3>Contact Information</h3>
+                    <p><i class='bx bx-map'></i> <a href="https://maps.app.goo.gl/PNS7fAh52WhPRgi49" target="_blank">طريق الملك عبدالله الفرعي، المحمدية، الرياض 12362</a></p>
+                    <p><i class='bx bx-phone'></i> <a href="tel:+966540608011">+966 54 060 8011</a></p>
+                    <p><i class='bx bx-envelope'></i> <a href="mailto:info@souvenir.com">info@souvenir.com</a></p>
+                </div>
+                <!-- Right Side: Contact Form -->
+                <div class="contact-right">
+                    <h3>Send Us a Message</h3>
+                    <form id="contact-form">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" placeholder="Your Name" required>
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" placeholder="Your Email" required>
+                        <label for="message">Your Message</label>
+                        <textarea id="message" placeholder="Your Message" required></textarea>
+                        <button type="submit" aria-label="Send Message">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        
+            <!-- Testimonials Section -->
+            <div class="testimonials">
+                <h2>What Our Customers Say</h2>
+                <div id="testimonials-container">
+                    <!-- Testimonials will be dynamically added here -->
+                </div>
+                <form id="testimonial-form">
+                    <h3>Share Your Experience</h3>
+                    <label for="testimonial-name">Your Name</label>
+                    <input type="text" id="testimonial-name" placeholder="Your Name" required>
+                    <label for="testimonial-message">Your Testimonial</label>
+                    <textarea id="testimonial-message" placeholder="Your Testimonial" required></textarea>
+                    <button type="submit" aria-label="Submit Testimonial">Submit Testimonial</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Souvenir Chocolate. All rights reserved.</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/souvenir.ruh" class="social-icon insta" target="_blank" rel="noopener" aria-label="Visit Souvenir's Instagram profile"><i class='bx bxl-instagram'></i></a>
+                <a href="https://www.snapchat.com/add/souvenir.ruh" class="social-icon snap" target="_blank" rel="noopener" aria-label="Visit Souvenir's SnapChat profile"><i class='bx bxl-snapchat'></i></a>
+                <a href="https://www.tiktok.com/@souvenir.ruh" class="social-icon tiktok" target="_blank" rel="noopener" aria-label="Visit Souvenir's TikTok profile"><i class='bx bxl-tiktok'></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" aria-label="Back to Top">
+        <i class='bx bx-chevron-up'></i>
+    </button>
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>
